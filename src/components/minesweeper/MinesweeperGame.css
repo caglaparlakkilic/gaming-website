@@ -1,0 +1,97 @@
+.gameContainer {
+    display: flex;
+    place-content: center center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .gameContainerB {
+    box-shadow: 4px 4px 10px -1px rgba(0,0,0,0.75);
+    }
+  .gameCell{
+    border: 1px solid #9a9999;
+    display: flex;
+    place-content: center center;
+    align-items: center;
+  }
+  .notClicked{
+    background-color: #C0C0C0;
+    border-bottom: 4px solid #707070;
+    border-right: 4px solid #707070;
+    border-top: 4px solid #f5f5f5;
+    border-left: 4px solid #f5f5f5;
+  }
+  .clicked{
+    background-color: #8e8e8e;
+  }
+
+  .bombIcon{
+    width: 20px;
+    height: 20px;
+  }
+  .flagIcon{
+    width: 18px;
+    height: 17px;
+  }
+
+  .gameStatusBoard{
+    border-bottom: 4px solid #707070;
+    border-right: 4px solid #707070;
+    border-top: 4px solid #f5f5f5;
+    border-left: 4px solid #f5f5f5;
+    background-color: #c0bebe;
+    width: 500px;
+    height: 80px;
+  }
+
+  .gameStatusBoard > button {
+    background-color: #C0C0C0;
+    border: 1px solid #C0C0C0;
+    border-bottom: 4px solid #707070;
+    border-right: 4px solid #707070;
+    border-top: 4px solid #f5f5f5;
+    border-left: 4px solid #f5f5f5;
+    margin-right: 10px;
+  }
+  .gameStatusButton {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+  }
+
+  .mineNumButton {
+    background: #330000;
+    color: red;
+    margin-left: 10px;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 50px;
+    height: 50px;
+    font-size: 190%; 
+  }
+
+  .restartButton{
+    background: #330000 !important;
+    border: none !important;
+    color: red;
+    margin-right: 10px;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 150px;
+    height: 50px;
+  }
+
+  .statusIcon{
+    width: 28px;
+    height: 30px;
+  }
+
+
+
+
